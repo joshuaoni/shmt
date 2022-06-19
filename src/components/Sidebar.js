@@ -7,7 +7,7 @@ const Sidebar = () => {
     return (  
         <div className='sidebar card'>
             <div className='cog'>
-                <FontAwesomeIcon className='' icon={faCanadianMapleLeaf} size="2x" />
+                <FontAwesomeIcon  icon={faCanadianMapleLeaf} size="2x" />
             </div>
             <div>
                 <div className='item'>
