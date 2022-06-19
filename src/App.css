@@ -218,7 +218,7 @@ img {
   padding: 0.8rem;
 }
 
-.atm h4, .drugs h2, .atm p, .drugs p, .atm h6 {
+.atm h4, .drugs h2, .atm p, .drugs .cog p, .atm h6 {
   color: white;
 }
 
