@@ -482,4 +482,8 @@ img {
     margin-bottom: 0.5rem;
     align-items: center;
   }
+
+  .new .fa-1x {
+    padding-left: 1rem;
+  }
 }
