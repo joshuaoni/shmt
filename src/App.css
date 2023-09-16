@@ -39,6 +39,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 1.5rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .fa-2x {
@@ -161,6 +166,11 @@ img {
   border-radius: 50%;
 }
 
+.sidebar h5,
+.sidebar h3,
+.sidebar h4,
+.sidebar h6,
+.sidebar p,
 .card h5,
 .card h3,
 .card h4,
@@ -306,7 +316,8 @@ img {
   box-shadow: 0 0 10px rgba(255, 50, 50, 0.9);
 }
 
-.card h3 {
+.card h3,
+.sidebar h3 {
   padding-bottom: 1rem;
 }
 
@@ -435,7 +446,8 @@ img {
     display: none;
   }
 
-  .left .card {
+  .left .card,
+  .sidebar .card {
     padding: 0.5rem 0;
   }
 
