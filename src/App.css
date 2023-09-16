@@ -39,9 +39,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 0.5rem;
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 1rem;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -69,8 +67,8 @@ h5 {
   color: rgb(1, 1, 62);
 }
 
-.left .card {
-  padding: 1.5rem 0.5rem;
+.sidebar {
+  padding: 1.5rem 0.5rem !important;
 }
 
 .fa-lg {
@@ -446,9 +444,8 @@ img {
     display: none;
   }
 
-  .left .card,
-  .sidebar .card {
-    padding: 0.5rem 0;
+  .sidebar {
+    padding: 0.5rem 0 !important;
   }
 
   section {
